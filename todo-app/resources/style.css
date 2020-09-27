@@ -1,0 +1,126 @@
+body {
+    background-color: #edf0f1;
+}
+
+ul {
+    list-style: none;
+}
+
+header{
+    width:100%;
+    height:80px;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index: 5;
+    background-color: #25b99a;
+    box-shadow: 0px 2px 4px rgba(44, 62, 80,0.15);
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+header input{
+    width: 90%;
+    height: 50px;
+    color:#fff;
+    font-size: 15px;
+    margin:15px 0 0 5%;
+    text-indent:20px;
+    background:rgba(255,255,255,0.2);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius:5px;
+    border-top-right-radius:25px;
+    border-bottom-right-radius:25px;
+    border:0px;
+    box-shadow: none;
+    outline:none;
+
+    -webkit-appearance: none; 
+    -moz-appearance: none;  
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none; 
+    
+}
+
+header input::-webkit-input-placeholder{
+    color:rgba(255,255,255,0.75);
+}
+
+header input:-moz-input-placeholder{
+    color:rgba(255,255,255,0.75);
+}
+
+header input::-moz-input-placeholder{
+    color:rgba(255,255,255,0.75);
+}
+
+header input:-ms-input-placeholder{
+    color:rgba(255,255,255,0.75);
+}
+
+header button {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top:15px;
+    right:5%;
+    z-index: 2;
+    border-radius: 25px;
+}
+
+
+
+.container {
+    width: 100%;
+    margin-top:100px;
+}
+ul.todo {
+    width: 90%;
+    margin:0 auto;
+}
+ul.todo li{
+    width: 100%;
+    height: 50px;
+    font-size:14px;
+    display:flex;
+    align-items: center;
+    color: #444;
+    line-height:22px;
+    background-color: #fff;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 0 1px 2px rgba(44,62,80,0.10);
+    margin-bottom:10px;
+}
+
+ul.todo li:list-of-type {
+    margin:0;
+}
+
+ul.todo li .buttons {
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top:0;
+    right:0;
+    display: flex;
+}
+
+ul.todo li .buttons button {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    border:none;
+    background-color: #63beab;
+    font-size:30px;
+}
+
+ul.todo li .buttons select {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    border:none;
+    background-color: #63beab;
+    font-size:20px;
+}
